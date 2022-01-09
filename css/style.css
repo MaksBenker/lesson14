@@ -1,0 +1,215 @@
+/*&display=swap*/
+/*&subset=cyrillic-ext*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,700,900,&display=swap);
+
+/*обнуление*/
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+}
+body {
+	line-height: 1;
+	overflow-x: hidden;
+	font-family:Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 15px;
+}
+.wrapper {
+	min-height: 100%;
+	padding-top:150px;
+}
+
+.conteyner {
+	background: url(../img/icon/Blob.svg) 610px 0px no-repeat;
+	background-color: #29C3BE;
+	width: 1440px;
+	padding:119px 210px 215px 211px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+
+.conteyner__header-block{
+	display: flex;
+	justify-content: space-between;
+}
+
+.conteyner__text-block {
+	display: flex;
+	flex-direction: column;
+	row-gap: 32px;
+	
+}
+.conteyner__little-title {
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 2.5;
+	color: #FFFFFF;
+	background:url(../img/icon/OverlineMark.svg)0px -7px no-repeat;
+	padding: 0px 0px 0px 33px;
+}
+
+
+.conteyner__big-title {
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 42px;
+	color: #FFFFFF;
+	width: 411px;
+	
+
+}
+
+
+.conteyner__image{
+	margin-top:-200px ;
+
+
+}
+
+.conteyner__dog-picture{
+	border-radius: 30px;
+
+}
+
+.conteyner__menu {
+	width: 970px;
+	margin-top: 79px;
+	display: flex;
+	justify-content: space-between;
+}
+.conteyner__box-mark {
+	background: url();
+	padding:5px 0px 7px 87px;
+}
+.conteyner__number {
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFFFFF;
+	font-weight: 900;
+	margin-bottom: 6px;
+}
+.conteyner__name-product {
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0,15;
+	color: #5D62B5;
+}
+
+.conteyner__box-mark:nth-child(1){
+	background: url(../img/icon/dog_duckling_24x.svg) 0 0 no-repeat;
+}
+
+.conteyner__box-mark:nth-child(2){
+	background: url(../img/icon/dog_house_24px.svg)  0 0 no-repeat;
+}
+.conteyner__box-mark:nth-child(3){
+	background: url(../img/icon/dog_leash_24x.svg)  0 0 no-repeat;
+}
+.conteyner__box-mark:nth-child(4){
+	background: url(../img/icon/dog_food_bowl_24x.svg)  0 0 no-repeat;
+}
+
+
+.our-content {
+	background: #F5F5F5;
+	padding: 50px;
+	width: 1072px;
+
+}
+
+.our-content__header{
+	display: flex;
+	flex-direction: column;	
+	justify-content: space-between;
+	margin-bottom: 34px;
+}
+
+.our-content__little-title {
+	color: #5D62B5;
+	font-size: 12px;
+	letter-spacing: 2.5;
+	line-height: 24px;
+	font-weight: 700;
+	background: url(../img/block_2/icon/Overline\ Mark.svg) 0px 28px no-repeat;
+	padding: 0px 0px 0px 33px;
+	line-height: 84px;
+	
+}
+.our-content__info-text {
+	line-height: 84px;
+	font-size: 36px;
+	font-weight: 900;
+	color: #000000;
+}
+
+
+.our-content__navigation {	
+	display: flex;
+	width: 1018px;
+	justify-content: space-between;
+}
+.menu {
+	display: flex;
+	flex-direction: row;
+	width: 324px;
+	
+}
+.menu__image-block {
+}
+.menu__picture {
+}
+.menu__info{
+	width: 235px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 11px;
+	padding-left: 26px;
+
+}
+.menu__title {
+	font-size: 19px;
+	font-weight: 900;
+	color: #F2726F;
+	line-height: 38px;
+}
+.menu__text {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0,15;
+	color:#4B4B4B;
+}
